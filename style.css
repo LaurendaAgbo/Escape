@@ -1,10 +1,136 @@
 /*****   DEBUT  MAIN     STYLE       *****/
 
+body {
+	font-family: "Brandon Grotesque Regular";
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+.row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+ul {
+	list-style: none;
+}
 
 /*****     FIN    MAIN     STYLE       *****/
 
 /***** DEBUT HOME   ****/
 
+#home{
+	background: url(images/headerImage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+}
+
+#menu .navbar {
+	width: 100%;
+    padding-top: 1rem;
+}
+
+#logo {
+	width: 26%;
+	padding-top: 0.5em;
+}
+
+#logo a {
+	font-family: "CubanoRegular";
+	font-size: 25px;
+	color: #fff;
+	font-style: normal;
+	letter-spacing: 4px;
+}
+
+#navigation a {
+	font-family: "Brandon Grotesque Medium";
+	font-size: 18px;
+	color: #fff;
+	padding-top: 1.5em;
+}
+
+#headerText {
+    min-height: 320px;
+    padding: 20px 0 0;
+	color: #fff;
+}
+
+#slidetext1 {
+	font-size: 24px;
+	margin-bottom: 0;
+	font-family: "Brandon Grotesque Light";
+	line-height: 1.8;
+}
+
+#slidetext2 {
+	font-family: "Brandon Grotesque Bold";
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 0.8em;
+}
+
+#learnMore {
+	font-family: "Brandon Grotesque Bold";
+	font-size: 23px;
+	padding: 0.7rem 3.5rem;
+    border: 3px solid #fff;
+	color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+	#logo {
+		padding-left: 6.5em;
+	}
+	
+	#slidetext2 {
+		margin-bottom: 0.8em;
+	}
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#headerText {
+		min-height: 350px;
+		padding: 60px 0 0;
+	}
+	
+	#slidetext1 {
+		font-size: 24px;
+		line-height: 2.8;
+	}
+	
+	#slidetext2 {
+		font-size: 46px;
+		margin-bottom: 0.8em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#headerText {
+		min-height: 370px;
+		padding: 5px 0 0;
+	}
+	
+	#slidetext1 {
+		font-size: 32px;
+		line-height: 2.8;
+	}
+	
+	#slidetext2 {
+		font-size: 64px;
+		margin-bottom: 0.8em;
+	}
+	
+	#learnMore {
+		padding: 1rem 4.5rem;
+	}
+}
 
 /****	FIN  HOME   ****/
 
