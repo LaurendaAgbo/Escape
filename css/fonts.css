@@ -11,7 +11,7 @@
 
 /* Webfont: Brandon Grotesque Medium */@font-face {
     font-family: 'Brandon Grotesque Medium';
-    src: url('../fonts/Brandon_Grotesque/Brandon_med.otf') format('otf');
+    src: url('../fonts/Brandon_Grotesque/Brandon_med.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -19,7 +19,7 @@
 
 /* Webfont: Brandon Grotesque Light */@font-face {
     font-family: 'Brandon Grotesque Light';
-    src: url('../fonts/Brandon_Grotesque/Brandon_light.otf') format('otf');
+    src: url('../fonts/Brandon_Grotesque/Brandon_light.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -27,23 +27,15 @@
 
 /* Webfont: Brandon Grotesque Bold */@font-face {
     font-family: 'Brandon Grotesque Bold';
-    src: url('../fonts/Brandon_Grotesque/Brandon_bld.otf') format('otf');
+    src: url('../fonts/Brandon_Grotesque/Brandon_bld.otf') format('opentype');
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     text-rendering: optimizeLegibility;
 }
 
 /* Webfont: Brandon Grotesque Regular */@font-face {
     font-family: 'Brandon Grotesque Regular';
-    src: url('../fonts/Brandon_Grotesque/Brandon_reg.otf') format('otf');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-/* Webfont: Brandon Grotesque Regular */@font-face {
-    font-family: 'Brandon Grotesque Regular';
-    src: url('../fonts/Brandon_Grotesque/Brandon_reg.otf') format('otf');
+    src: url('../fonts/Brandon_Grotesque/Brandon_reg.otf') format('opentype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
