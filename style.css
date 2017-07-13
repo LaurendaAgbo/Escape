@@ -148,15 +148,11 @@ ul {
 
 /***** DEBUT LOGOS   ****/
 
-
+#logos
 
 /****	FIN  LOGOS   ****/
 
 /***** DEBUT 	AMAZING TEAM   ****/
-
-
-
-/****	FIN  AMAZING TEAM   ****/
 
 #amazingTeam {
 	background-color: #111;
@@ -236,6 +232,9 @@ ul {
 		padding: 3rem 0 2rem;
 	}
 }
+
+/****	FIN  AMAZING TEAM   ****/
+
 
 /***** DEBUT CONTACT   ****/
 
