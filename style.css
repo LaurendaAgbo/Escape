@@ -159,8 +159,53 @@ ul {
 /****	FIN  AMAZING TEAM   ****/
 
 
+
 /***** DEBUT CONTACT   ****/
 
+#contact {
+	background-color: #7690c5;
+	color: #fff;
+}
 
+.contactForm {
+	padding: 1rem 0;
+}
+
+#contactTitle h3 {
+	font-family: "Brandon Grotesque Light";
+	font-size: 60px;
+}
+
+#contactTitle h3 span {
+	font-family: "Brandon Grotesque Bold";
+}
+
+#contactTitle p, .contactAddress p span {
+	font-family: "Brandon Grotesque Light";
+	font-size: 18px;
+}
+
+
+#formulaire .form-control {
+	border: 0;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	color: #bbb;
+	font-family: "Brandon Grotesque Regular";
+	font-size: 18px;
+	width: 100%;
+}
+
+#copyright {
+	font-family: "Brandon Grotesque Medium";
+	font-size: 16px;
+	padding: 1rem 0 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+	.contactForm {
+		padding: 4rem 0;
+	}
+}
 
 /****	FIN  CONTACT   ****/
