@@ -158,7 +158,84 @@ ul {
 
 /****	FIN  AMAZING TEAM   ****/
 
+#amazingTeam {
+	background-color: #111;
+	padding: 1rem 0;
+	color: #ebebeb;
+}
 
+#amazingTeamTitle h3 {
+	font-family: "Brandon Grotesque Light";
+	font-size: 40px;
+}
+
+#amazingTeamTitle h3 span {
+	font-family: "Brandon Grotesque Bold";
+}
+
+#amazingTeamTitle p {
+	font-size: 18px;
+	color: #777;
+}
+
+#amazingTeamBlocks .amazingTeamPhotos {
+	width: 100%;
+}
+
+.amazingTeamBlocksName {
+	font-family: "Brandon Grotesque Bold";
+	font-size: 18px;
+	color: #fff;
+}
+
+.amazingTeamBlocksFonction {
+	font-family: "Brandon Grotesque Light";
+	font-size: 16px;
+	line-height: 1.3rem;
+}
+
+#amazingTeamDescription {
+	font-size: 14px;
+}
+
+@media screen and (min-width: 578px) {
+	#amazingTeamBlocks .amazingTeamPhotos {
+		width: auto;
+	}
+	
+	#amazingTeamTitle h3 {
+		font-size: 60px;
+	}
+
+	#amazingTeamTitle p {
+		font-size: 22px;
+	}
+	
+	.amazingTeamBlocksFonction {
+		font-size: 18px;
+		padding: 0 1rem;
+	}
+	
+	#amazingTeamDescription {
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	#amazingTeamBlocks .amazingTeamPhotos {
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#amazingTeam {
+		padding: 5rem 0;
+	}
+	
+	#amazingTeamBlocks {
+		padding: 3rem 0 2rem;
+	}
+}
 
 /***** DEBUT CONTACT   ****/
 
