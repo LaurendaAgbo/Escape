@@ -136,7 +136,72 @@ ul {
 
 /***** DEBUT SERVICES   ****/
 
+#webDevelopment, #branding, #skills {
+	padding: 1rem 0;
+}
 
+.serviceName {
+	font-family: "Brandon Grotesque Light";
+	font-size: 36px;
+}
+
+.serviceName span {
+	font-family: "Brandon Grotesque Bold";
+}
+
+.serviceDescription, .skillDescription {
+	font-size: 16px;
+	color: #777;
+}
+
+#developmentAndBranding .serviceImages {
+	width: 100%;
+}
+
+#branding {
+	background-color: #fafafa;
+}
+
+.skillName {
+	font-family: "Brandon Grotesque Medium";
+	font-size: 18px;
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+	.skillName {
+		font-size: 20px!important;
+	}
+	
+	#developmentAndBranding .serviceImages {
+		width: auto;
+	}
+}
+
+@media screen and (min-width: 578px) {
+	.serviceName {
+		font-size: 60px;
+	}
+	
+	.serviceDescription, .skillDescription {
+		font-size: 18px;
+	}
+	
+	.skillName {
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#webDevelopment, #branding, #skills {
+		padding: 5rem 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#webDevelopment, #branding, #skills {
+		padding: 5rem 11rem;
+	}
+}
 
 /****	FIN  SERVICES   ****/
 
