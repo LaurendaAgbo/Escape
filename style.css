@@ -84,54 +84,6 @@ ul {
 	color: #fff;
 }
 
-@media screen and (min-width: 992px) {
-	#logo {
-		padding-left: 6.5em;
-	}
-	
-	#slidetext2 {
-		margin-bottom: 0.8em;
-	}
-}
-
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	#headerText {
-		min-height: 350px;
-		padding: 60px 0 0;
-	}
-	
-	#slidetext1 {
-		font-size: 24px;
-		line-height: 2.8;
-	}
-	
-	#slidetext2 {
-		font-size: 46px;
-		margin-bottom: 0.8em;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#headerText {
-		min-height: 370px;
-		padding: 5px 0 0;
-	}
-	
-	#slidetext1 {
-		font-size: 32px;
-		line-height: 2.8;
-	}
-	
-	#slidetext2 {
-		font-size: 64px;
-		margin-bottom: 0.8em;
-	}
-	
-	#learnMore {
-		padding: 1rem 4.5rem;
-	}
-}
-
 /****	FIN  HOME   ****/
 
 /***** DEBUT SERVICES   ****/
@@ -165,42 +117,6 @@ ul {
 .skillName {
 	font-family: "Brandon Grotesque Medium";
 	font-size: 18px;
-}
-
-@media screen and (min-width: 578px) and (max-width: 768px) {
-	.skillName {
-		font-size: 20px!important;
-	}
-	
-	#developmentAndBranding .serviceImages {
-		width: auto;
-	}
-}
-
-@media screen and (min-width: 578px) {
-	.serviceName {
-		font-size: 60px;
-	}
-	
-	.serviceDescription, .skillDescription {
-		font-size: 18px;
-	}
-	
-	.skillName {
-		font-size: 22px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#webDevelopment, #branding, #skills {
-		padding: 5rem 0;
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	#webDevelopment, #branding, #skills {
-		padding: 5rem 11rem;
-	}
 }
 
 /****	FIN  SERVICES   ****/
@@ -255,88 +171,12 @@ blockquote p:after {
 	color: #7690c5;
 }
 
-@media screen and (min-width: 578px) and (max-width: 767px) {
-	blockquote p {
-		font-size: 22px;
-	}
-	
-	#author {
-		font-size: 16px;
-	}
-}
- 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	.bart .clientPhoto {
-		width: 180px!important;
-	}
-	
-	.testimonialsBlock .popover {
-		left: 13.3%;
-		padding: 0.5rem 2rem;
-		max-width: 90%;
-	}
-	
-	blockquote p {
-		font-size: 22px;
-	}
-	
-	#author {
-		font-size: 16px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#awesomeClients {
-		padding: 5rem 0;
-	}
-	
-	.testimonialsBlock {
-		padding: 3rem 0;
-	}
-	
-	.bart .clientPhoto {
-		margin-top: 0;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	.testimonialsBlock .popover {
-		padding: 1.5rem 5rem;
-		max-width: 90%;
-	}
-	
-	.bart .popover {
-		float: right;
-	}
-	
-	blockquote p {
-		font-size: 26px;
-	}
-	
-	#author {
-		font-size: 18px;
-	}
-}
-
-
 /****	FIN  AWESOME CLIENTS   ****/
 
 /***** DEBUT LOGOS   ****/
 
 #logos img {
 	width: 100%;
-}
-	
-@media screen and (min-width: 768px) {
-	#logos {
-		padding: 2rem 0;
-	}
-}
-
-@media screen and (min-width: 992px) {
-	#logos img {
-		width: auto;
-	}
 }
 
 /****	FIN  LOGOS   ****/
@@ -381,45 +221,6 @@ blockquote p:after {
 
 #amazingTeamDescription {
 	font-size: 14px;
-}
-
-@media screen and (min-width: 578px) {
-	#amazingTeamBlocks .amazingTeamPhotos, .testimonialsBlock .clientPhoto {
-		width: auto;
-	}
-	
-	#amazingTeamTitle h3, #awesomeClientsTitle h3 {
-		font-size: 60px;
-	}
-
-	#amazingTeamTitle p, #awesomeClientsTitle p {
-		font-size: 22px;
-	}
-	
-	.amazingTeamBlocksFonction {
-		font-size: 18px;
-		padding: 0 1rem;
-	}
-	
-	#amazingTeamDescription {
-		font-size: 22px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	#amazingTeamBlocks .amazingTeamPhotos {
-		width: 200px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	#amazingTeam {
-		padding: 5rem 0;
-	}
-	
-	#amazingTeamBlocks {
-		padding: 3rem 0 2rem;
-	}
 }
 
 /****	FIN  AMAZING TEAM   ****/
@@ -467,10 +268,170 @@ blockquote p:after {
 	padding: 1rem 0 1.5rem;
 }
 
+/****	FIN  CONTACT   ****/
+
+/****   DEBUT MEDIA QUERIES    ****/
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	#headerText {
+		min-height: 350px;
+		padding: 60px 0 0;
+	}
+	
+	#slidetext1 {
+		font-size: 24px;
+		line-height: 2.8;
+	}
+	
+	#slidetext2 {
+		font-size: 46px;
+		margin-bottom: 0.8em;
+	}
+	
+	.skillName {
+		font-size: 20px!important;
+	}
+	
+	#developmentAndBranding .serviceImages {
+		width: auto;
+	}
+	
+	blockquote p {
+		font-size: 22px;
+	}
+	
+	#author {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 578px) {
+	.serviceName, #amazingTeamTitle h3, #awesomeClientsTitle h3 {
+		font-size: 60px;
+	}
+	
+	.serviceDescription, .skillDescription, .amazingTeamBlocksFonction {
+		font-size: 18px;
+	}
+	
+	.skillName, #amazingTeamTitle p, #awesomeClientsTitle p, #amazingTeamDescription {
+		font-size: 22px;
+	}
+	
+	#amazingTeamBlocks .amazingTeamPhotos, .testimonialsBlock .clientPhoto {
+		width: auto;
+	}
+		
+	.amazingTeamBlocksFonction {
+		padding: 0 1rem;
+	}
+	
+}
+ 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.bart .clientPhoto {
+		width: 180px!important;
+	}
+	
+	.testimonialsBlock .popover {
+		left: 13.3%;
+		padding: 0.5rem 2rem;
+		max-width: 90%;
+	}
+	
+	blockquote p {
+		font-size: 22px;
+	}
+	
+	#author {
+		font-size: 16px;
+	}
+	
+	#amazingTeamBlocks .amazingTeamPhotos {
+		width: 200px;
+	}
+}
+
 @media screen and (min-width: 768px) {
+	#headerText {
+		min-height: 370px;
+		padding: 5px 0 0;
+	}
+	
+	#slidetext1 {
+		font-size: 32px;
+		line-height: 2.8;
+	}
+	
+	#slidetext2 {
+		font-size: 64px;
+		margin-bottom: 0.8em;
+	}
+	
+	#learnMore {
+		padding: 1rem 4.5rem;
+	}
+	
+	#webDevelopment, #branding, #skills, #awesomeClients, #amazingTeam {
+		padding: 5rem 0;
+	}
+		
+	.testimonialsBlock {
+		padding: 3rem 0;
+	}
+	
+	.bart .clientPhoto {
+		margin-top: 0;
+	}
+	
+	#logos {
+		padding: 2rem 0;
+	}
+	
+	#amazingTeamBlocks {
+		padding: 3rem 0 2rem;
+	}
+	
 	.contactForm {
 		padding: 4rem 0;
 	}
 }
 
-/****	FIN  CONTACT   ****/
+@media screen and (min-width: 992px) {
+	#logo {
+		padding-left: 6.5em;
+	}
+	
+	#slidetext2 {
+		margin-bottom: 0.8em;
+	}
+	
+	.testimonialsBlock .popover {
+		padding: 1.5rem 5rem;
+		max-width: 90%;
+	}
+	
+	.bart .popover {
+		float: right;
+	}
+	
+	blockquote p {
+		font-size: 26px;
+	}
+	
+	#author {
+		font-size: 18px;
+	}
+	
+	#logos img {
+		width: auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#webDevelopment, #branding, #skills {
+		padding: 5rem 11rem;
+	}
+}
+
+/****   FIN MEDIA QUERIES    ****/
