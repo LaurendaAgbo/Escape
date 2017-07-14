@@ -207,6 +207,116 @@ ul {
 
 /***** DEBUT AWESOME CLIENTS   ****/
 
+#awesomeClients {
+	background-color: #fafafa;
+	padding: 1rem 0;
+}
+
+.bart .clientPhoto {
+	margin-top: 3rem;
+}
+
+.testimonialsBlock .popover {
+    position: relative;
+	top: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+	padding: .5rem 1rem;
+	max-width: 100%;
+}
+
+.testimonialsBlock .popover .popover-content {
+	font-size: 18px;
+	background-color: transparent;
+	font-weight: normal;
+	padding: 0;
+}
+
+.testimonialsBlock .popover.popover-top::after, .testimonialsBlock .popover.bs-tether-element-attached-bottom::after {
+    border-top-color: #fff;
+}
+
+blockquote p {
+    font-family: "Brandon Grotesque Regular";
+	font-size: 18px;
+	color: #777;
+}
+
+blockquote p:before {
+	content: "\201C";
+}
+
+blockquote p:after {
+	content: "\201D";
+}
+
+#author {
+	font-size: 14px;
+	color: #7690c5;
+}
+
+@media screen and (min-width: 578px) and (max-width: 767px) {
+	blockquote p {
+		font-size: 22px;
+	}
+	
+	#author {
+		font-size: 16px;
+	}
+}
+ 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.bart .clientPhoto {
+		width: 180px!important;
+	}
+	
+	.testimonialsBlock .popover {
+		left: 13.3%;
+		padding: 0.5rem 2rem;
+		max-width: 90%;
+	}
+	
+	blockquote p {
+		font-size: 22px;
+	}
+	
+	#author {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#awesomeClients {
+		padding: 5rem 0;
+	}
+	
+	.testimonialsBlock {
+		padding: 3rem 0;
+	}
+	
+	.bart .clientPhoto {
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.testimonialsBlock .popover {
+		padding: 1.5rem 5rem;
+		max-width: 90%;
+	}
+	
+	.bart .popover {
+		float: right;
+	}
+	
+	blockquote p {
+		font-size: 26px;
+	}
+	
+	#author {
+		font-size: 18px;
+	}
+}
 
 
 /****	FIN  AWESOME CLIENTS   ****/
@@ -239,21 +349,21 @@ ul {
 	color: #ebebeb;
 }
 
-#amazingTeamTitle h3 {
+#amazingTeamTitle h3, #awesomeClientsTitle h3 {
 	font-family: "Brandon Grotesque Light";
 	font-size: 40px;
 }
 
-#amazingTeamTitle h3 span {
+#amazingTeamTitle h3 span, #awesomeClientsTitle h3 span {
 	font-family: "Brandon Grotesque Bold";
 }
 
-#amazingTeamTitle p {
+#amazingTeamTitle p, #awesomeClientsTitle p {
 	font-size: 18px;
 	color: #777;
 }
 
-#amazingTeamBlocks .amazingTeamPhotos {
+#amazingTeamBlocks .amazingTeamPhotos, .testimonialsBlock .clientPhoto {
 	width: 100%;
 }
 
@@ -274,15 +384,15 @@ ul {
 }
 
 @media screen and (min-width: 578px) {
-	#amazingTeamBlocks .amazingTeamPhotos {
+	#amazingTeamBlocks .amazingTeamPhotos, .testimonialsBlock .clientPhoto {
 		width: auto;
 	}
 	
-	#amazingTeamTitle h3 {
+	#amazingTeamTitle h3, #awesomeClientsTitle h3 {
 		font-size: 60px;
 	}
 
-	#amazingTeamTitle p {
+	#amazingTeamTitle p, #awesomeClientsTitle p {
 		font-size: 22px;
 	}
 	
